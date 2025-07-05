@@ -17,10 +17,10 @@ const Header = () => {
               <Nav className="ms-auto">
                 <Link to={'/'} className="nav-link">Home</Link>
                 <Link to={'/about'} className="nav-link">About Us</Link>
-                <Link to={''} className="nav-link">Services</Link>
-                <Link to={''} className="nav-link">Project</Link>
-                <Link to={''} className="nav-link">Blog</Link>
-                <Link to={''} className="nav-link">Contact Us</Link>
+                <Link to={'/service'} className="nav-link">Services</Link>
+                <Link to={'/project'} className="nav-link">Project</Link>
+                <Link to={'/blog'} className="nav-link">Blog</Link>
+                <Link to={'/contact'} className="nav-link">Contact Us</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
