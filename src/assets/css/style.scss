@@ -205,3 +205,57 @@ footer{
     }
 }
 
+.section-5{
+    .swiper{
+        padding: 25px;
+    }
+    .card{
+        border-radius: 40px;
+        .card-body{
+            .rating{
+                color: $secondary-color;
+            }
+
+            .content{
+                p{
+                    font-size: 1em;
+                }
+            }
+
+            img{
+                border-radius: 50%;
+            }
+
+            .title{
+                h5{
+                    font-size: 1.2em;
+                }
+                h6{
+                    font-size: 1em;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+.section-6{
+    .card{
+        border-radius: 40px;
+
+        img{
+            border-radius: 40px 40px 0px 0px;
+        }
+        .content{
+            h4{
+                cursor: pointer;
+                font-weight: 500;
+                line-height: 30px;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
