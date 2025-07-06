@@ -276,3 +276,20 @@ footer{
     }
 }
 
+
+//login_page-start=======================
+.login-section{
+    .card{
+        width: 400px;
+        border-radius: 20px;
+        form{
+            .form-group{
+                margin-bottom: 20px;
+                label{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
